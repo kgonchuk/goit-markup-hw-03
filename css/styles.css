@@ -15,10 +15,15 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--dark);
   background-color: var(--white-texcolor);
-  
-  
+   
 }
  
+.container{
+  margin-left: 0;
+  margin-right: 0;
+  width: 1158px;
+  outline: 2px solid tomato;
+}
 
 /* -----Header----- */
 
@@ -88,13 +93,20 @@ color: var(--text);
 .address-item :hover,
 .address-item :focus{
   color: var(--primary-brand);
+  
 }
+
+
 /* Hero */
 
 .hero-title{
   background-color: var(--dark);
+  text-align: center;
+  margin-bottom: 120px;
 }
 .hero-item {
+  margin-top: 0;
+  margin-bottom: 48px;
   color: var(--white-texcolor);
   font-weight: 700;
 font-size: 56px;
@@ -113,7 +125,10 @@ line-height: 1.5;
 letter-spacing: 0.04em; 
 cursor: pointer;
 border-radius: 4px;
-
+border: none;
+padding: 16px 32px 16px 32px;
+display: inline;
+min-width: 169px 56 px;
 }
 .button:hover,
 .button:focus{
@@ -125,6 +140,9 @@ border-radius: 4px;
 
 
 /* Section Principle */
+.principle{
+  margin-bottom: 120px;
+}
 
 .principle-visually-hidden{
   position: absolute;
@@ -140,6 +158,8 @@ border-radius: 4px;
 }
 
 .principle-title{
+  margin: 0;
+  margin-bottom: 8px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -147,6 +167,7 @@ font-weight: 500;
 }
 
 .desc{
+margin: 0;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -156,17 +177,36 @@ color:var(--text);
 /* Section work */
 
 .work-caption, .team-caption{
+  margin: 0;
+  margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
+.work{
+  margin-bottom: 120px;
+}
+
  /* Section Our team */
+
+ 
  .team{
-  background-color:#F4F4FD;
+  margin: 0;
+     padding-top: 120px;
+  padding-bottom: 120px;
+  background-color:var(--light);
+ }
+ 
+
+ .picture{
+  margin: 0;
+  margin-bottom: 32px;
  }
  .name{
+  margin: 0;
+  margin-bottom: 8px;
   font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -174,6 +214,9 @@ letter-spacing: 0.02em;
  }
 
 .position{
+  margin: 0;
+  /* padding-bottom: 120px; */
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -182,14 +225,20 @@ letter-spacing: 0.02em;
 
 .list{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 /* Footer */
 
 .footer{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--dark);
 }
 
 .footer-logo{
+ padding-bottom: 16px;
   font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -217,26 +266,31 @@ text-transform: uppercase;
 }
 
 .footer-text{
-  color: var(--accent);
+  margin: 0;
+   color: var(--accent);
   background-color: var(--dark);
 }
 
-/* Portfolio */
+/*--------------------------------------- Portfolio----------------------- */
 
 /* Button */
 
 .portfolio-btn{
-  font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
-    font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-     letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+     text-align: center;
 background-color:var(--accent);
 color: var(--primary-brand);
 border: 1px solid var(--accent);
 border-radius: 4px;
 cursor: pointer;
+padding: 12px 24px;
+display: inline;
+min-width: 69px;
 }
 
 .portfolio-btn:hover,
