@@ -259,9 +259,10 @@ align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 .work-item{
-  flex-basis: calc((100%-48px)/3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 /* Section Our team */
@@ -317,6 +318,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 24px;
+flex-basis: calc((100% - 72px) / 4);
 } 
 
 /* Footer */
