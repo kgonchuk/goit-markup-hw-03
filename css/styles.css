@@ -37,7 +37,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 body {
@@ -58,13 +58,13 @@ body {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 
-  background-color: #31d0aa;
+  /* background-color: #31d0aa; */
 }
 
 .header-item{
   
-  background-color: tomato;
-  
+  /* background-color: tomato;
+   */
 }
 
 
@@ -389,7 +389,7 @@ flex-basis: calc((100% - 72px) / 4);
   padding: 12px 24px;
   display: inline;
   min-width: 69px;
-  background-color: tomato;
+  /* background-color: tomato; */
 
 }
 
@@ -411,7 +411,7 @@ flex-basis: calc((100% - 72px) / 4);
 }
 .filters-list {
 
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 .button-item {
   list-style: none;
@@ -454,11 +454,11 @@ flex-basis: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   color: var(--text);
   margin-left: 16px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 .project-item {
   list-style: none; 
-  /* flex-basis: calc((100%-2*24px)/3); */
+ 
 } 
 
 .project-card-content {
